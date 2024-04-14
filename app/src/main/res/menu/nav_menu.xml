@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_translate_en_vn"
+            android:icon="@drawable/nav_translate"
+            android:title="Vietnemese - English" />
+
+        <item
+            android:id="@+id/nav_translate_vn_en"
+            android:icon="@drawable/nav_translate"
+            android:title="English - Vietnamese" />
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/nav_favourite"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/nav_yourword"
+            android:icon="@drawable/nav_yourwords"
+            android:title="Your Words" />
+    </group>
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/nav_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/nav_help"
+                android:title="Help" />
+        </menu>
+
+    </item>
+
+</menu>
